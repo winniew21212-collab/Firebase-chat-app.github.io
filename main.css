@@ -1,0 +1,52 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    background: linear-gradient(to bottom, rgb(171, 255, 171), rgb(249, 161, 161));
+}
+
+.header {
+    background-color: black;
+    padding: 20px;
+}
+
+.header h1 {
+    color: rgb(149, 252, 220);
+    text-align: center;
+}
+
+.header button {
+    width: 15%;
+    margin: auto;
+    display: block;
+    border-radius: 10px;
+    font-weight: 600;
+    background-color: rgb(152, 253, 255);
+}
+
+.note {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 166, 166);
+    position: absolute; 
+}
+
+.editable {
+    background-color: rgb(255, 246, 166);
+    height: 190px;
+    overflow-y: scroll;
+}
+
+.toolbar{
+    text-align: right;
+    background-color: rgb(218, 249, 168);
+}
+
+.close {
+    color: rgb(166, 209, 247);
+    margin-right: 5px;
+    cursor: pointer;
+}
+
